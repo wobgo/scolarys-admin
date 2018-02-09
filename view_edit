@@ -1,0 +1,3 @@
+CREATE VIEW Class_Link AS SELECT link.LinK_ID,link.Link_Mat,link.ClasseID_Link,classe.ClasseID,classe.ClasseText,subjects.SubjectID,
+subjects.SubField,chapiters.ChapiterID,chapiters.ChapiterField FROM classe,subjects,link, chapiters
+WHERE link.Link_Mat = subjects.SubjectID AND link.ClasseID_Link = classe.ClasseID AND chapiters.SubjectID = subjects.SubjectID  
