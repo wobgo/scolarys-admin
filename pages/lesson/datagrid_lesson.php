@@ -11,12 +11,11 @@
     </section>
 
 
-
     <!-- Main content -->
     <section class="content">
       <div class="row">
         <div class="col-xs-12">
-            <a href="?url=lesson_add" >  <i class=" text-success glyphicon glyphicon-plus " ></i>  ajouter un cours</a>
+            <a href="?url=lesson/added" >  <i class=" text-success glyphicon glyphicon-fast-forward " ></i> acceder aux le&ccedil;ons ajout&eacute;es </a>
           <!-- /.box -->
 
           <div class="box">

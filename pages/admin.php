@@ -25,6 +25,9 @@
      <!--  folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="../assets/css/dist/css/skins/_all-skins.min.css">
 
+  
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
 
 <!--                          
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.4/css/bootstrap2/bootstrap-switch.css" rel="stylesheet">
@@ -166,16 +169,24 @@
      <?php if($_GET['url']=='add/class_mat'){ include './link/linkadd_class.php';} ?>
     
     
-      <?php if($_GET['url']=='oth/ass'){ include './others/assistance/datagrid_assist.php';} ?>
+      <?php if($_GET['url']=='oth/ass'){ include './others/assistance/admin/datagrid_assist.php';} ?>
     
     
-     <?php if($_GET['url']=='ass/comp'){ include './others/assistance/assis_compose.php';} ?>
+     <?php if($_GET['url']=='ass/comp'){ include './others/assistance/admin/assis_compose.php';} ?>
     
     
-       <?php if($_GET['url']=='get/help'){ include './others/assistance/get_help.php';} ?>
+      <?php if($_GET['url']=='lesson/added'){ include './lesson/lesson_added.php';} ?>
     
     
+     <?php if($_GET['url']=='get/help'){ include './others/assistance/get_help.php';} ?>
     
+    
+     <?php if($_GET['url']=='oth/assop'){ include './others/assistance/user/read_assist.php';} ?>
+    
+    
+     <?php if($_GET['url']=='ass/compop'){ include './others/assistance/user/get_help';} ?>
+    
+     
      <?php if($_GET['url']=='info'){ include './others/info/informations.php';} ?>
     
     
@@ -187,21 +198,23 @@
      <?php if($_GET['url']=='parent/student'){ include './parent/mystudent.php';} ?>
     
     
+      <?php if($_GET['url']=='parent/add'){ include './parent/add_student.php';} ?>
     
-       <?php if($_GET['url']=='parent/add'){ include './parent/add_student.php';} ?>
     
-    
+      <?php if($_GET['url']=='add/planning'){ include './share/addplanning.php';} ?>
     
     
        <?php if($_GET['url']=='parent/prog'){ include './parent/progress.php';} ?>
     
     
     
-       <?php if($_GET['url']=='read/help'){ include './others/assistance/read_assist.php';} ?>
+       <?php if($_GET['url']=='read/help'){ include './others/assistance/admin/read_assist.php';} ?>
     
     
        <?php if($_GET['url']=='publication'){ include './share/partage.php';} ?>
     
+    
+     <?php if($_GET['url']=='contributor/add'){ include './others/contribution/add_contributor.php';} ?>
     
     
       <?php if($_GET['url']=='user/logout'){ include './../globals/logout.php';} ?>
@@ -287,5 +300,8 @@
 
  
 </script>
+
+
+
 </body>
 </html>

@@ -48,7 +48,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="admin.php?url=user/support"><i class="fa fa-group"></i> Operateurs/Professeurs</a></li>
+            <li><a href="admin.php?url=user/support"><i class="fa fa-group"></i> Operateurs</a></li>
             <li><a  href="admin.php?url=user/parent"><i class="fa fa-user-circle"></i> Parents</a></li>
             <li><a href="admin.php?url=user/student"><i class="fa fa-graduation-cap"></i>Eleves</a></li>
           </ul>

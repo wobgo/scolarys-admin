@@ -59,7 +59,7 @@ $('#addlesson').click(function(){
    
    alert(classid);
    
-   $.get(url,{add:'action',title:title,lesson:txt,classid:classid,chapid:chapid,subid:subid},function(d){
+   $.get(url,{add:'action',title:title,lesson:txt,classid:classid,chapid:chapid,subid:subid,ref:refr},function(d){
         
         alert(d.return);
         

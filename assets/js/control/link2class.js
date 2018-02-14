@@ -15,8 +15,6 @@ $(function(){
                    
                         +" <td>" +donnees.ClasseText +"</td>"
                 
-                     
-                        
                         +" <td><a href='' id=modif##"+donnees.ClasseID+"><i  class=' text-primary glyphicon glyphicon-pencil'></i>modifier</a></td>"
      
                       //  +"<td > <a href='' id=del##"+donnees.ClasseID+" > <i class=' text-danger glyphicon glyphicon-remove'></i>supprimer </a></td>  "

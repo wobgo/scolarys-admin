@@ -93,3 +93,30 @@ $('#assist').on("click","a",function(){
     return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
 
 };
+
+
+//////////////////add assistance////////////////////////
+var urlk="../Models/datalist/assistance.php";
+
+
+$('#send').click(function(){
+   
+    var file  =   $('#msg').text();
+    
+    var text = $('#compose').val();
+    
+    var subject = $('#sujet').val();
+    
+    var receiv = $("select[name='receiver'] > option:selected").val();
+    
+    $.get(urlk,{add:'action',file:file,contain:text,sujet:subject,rec:receiv},function(d){
+        
+        alert(d.return);
+    });
+    
+    
+    
+    return false;
+    
+    
+});

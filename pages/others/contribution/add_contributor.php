@@ -1,11 +1,11 @@
   <section class="content-header">
       <h1>
-        Ajout des Lessons
+        AMELIORATION
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Panneau</a></li>
-        <li><a href="#">Lesson</a></li>
+        <li><a href="#">Contribution</a></li>
         <li class="active">Ajout</li>
       </ol>
     </section>
@@ -13,11 +13,15 @@
 
  <section class="content">
      
+       
+     <input type="hidden" id="<?php echo $_SESSION['usrID'];?>" />
+     
      
       <div class="row">
+          
         <div class="col-md-12">
-            <a href="?url=lesson"><i class=" glyphicon glyphicon-arrow-left" ></i> retour a la liste</a>
-<!--          <div class="box box-info">
+  <!--           <a href="?url=lesson"><i class=" glyphicon glyphicon-arrow-left" ></i> retour a la liste</a>
+         <div class="box box-info">
             <div class="box-header">
               <h3 class="box-title">CK Editor
                 <small>Advanced and full of features</small>
@@ -49,7 +53,7 @@
           
           
           
-<div class="box box-default">
+<!--<div class="box box-default">
         <div class="box-header with-border">
               
           <h3 class="box-title">Ajout de cours</h3>
@@ -59,7 +63,7 @@
             <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-remove"></i></button>
           </div>
         </div>
-        <!-- /.box-header -->
+         /.box-header 
         <div class="box-body">
           <div class="row">
             <div class="col-md-12">
@@ -73,15 +77,15 @@
             </div>
           
           </div>
-          <!-- /.row -->
+           /.row 
         </div>
         
-        <!-- /.box-body -->
+         /.box-body 
         <div class="box-footer">
-<!--          Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
-          the plugin.-->
+          Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
+          the plugin.
         </div>
-      </div>
+      </div>-->
       
           
           
@@ -164,8 +168,8 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Saisir votre cours
-                <small>Ci dessous</small>
+              <h3 class="box-title">Contribuer a l'amelioration du produit
+                <small> Ci dessous</small>
               </h3>
               <!-- tools box -->
               <div class="pull-right box-tools">
@@ -182,7 +186,7 @@
             <!-- /.box-header -->
             <div class="box-body pad">
              
-                <textarea id="textArea" class="textarea" placeholder="Place some text here"
+                <textarea id="textContrib" class="textarea" placeholder="Place some text here"
                       style="width: 100%; height: 180px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
               
             </div>
@@ -200,7 +204,7 @@
 
         <div class="pull pull-right">
               
-              <button class="btn btn btn-primary"  id="addlesson"  >ajouter une le&#231;on  </button> 
+              <button class="btn btn btn-primary"  id="addcontrib"  >Contribuer  </button> 
                        
           </div>
             
@@ -214,5 +218,4 @@
     </section>  
 
 
-<script src="../assets/js/control/lesson.js" type="text/javascript"></script>
-<script src="../assets/js/control/lessonAdded.js" type="text/javascript"></script>
+<script src="../assets/js/control/contribution.js" type="text/javascript"></script>

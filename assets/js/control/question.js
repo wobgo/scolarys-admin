@@ -206,7 +206,7 @@ $('#addquestion').click(function(){
         
          $.get(url_link_rep,{add:'action',valeurs:valeur},function(d){alert(d.rep);},'json');
          
-        window.location = "?url=quest/question";
+            window.location = "?url=quest/question";
         
     },'json');
     

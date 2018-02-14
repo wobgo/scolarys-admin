@@ -95,8 +95,7 @@
           <a href="admin.php?url=oth/ass">
             <i class="fa fa-life-buoy"></i> <span>Obtenir de l'aide</span>
             <span class="pull-right-container">
-              
-            </span>
+              </span>
           </a>
         </li>
 

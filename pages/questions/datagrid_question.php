@@ -1,7 +1,7 @@
 <section class="content-header">
       <h1>
-        Data Tables
-        <small>advanced tables</small>
+        QUESTIONS
+<!--        <small>advanced tables</small>-->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -16,7 +16,7 @@
     <section class="content">
       <div class="row">
         <div class="col-xs-12">
-            <a href="?url=question_add" >  <i class=" text-success glyphicon glyphicon-plus " ></i>  ajouter une question</a>
+            <a href="?url=question_add" >  <i class=" text-success glyphicon glyphicon-plus " ></i> acceder aux questions ajoutees</a>
           <!-- /.box -->
 
           <div class="box">

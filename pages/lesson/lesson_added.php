@@ -1,12 +1,12 @@
 <section class="content-header">
       <h1>
-        LISTE DES CHAPITRES
-<!--        <small>advanced tables</small>-->
+        Table de Donnees Lessons
+        <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Panneau</a></li>
-        <li><a href="#">Chapitre</a></li>
-        <li class="active">Liste</li>
+        <li><a href="#">Tables</a></li>
+        <li class="active">Lessons</li>
       </ol>
     </section>
 
@@ -16,29 +16,29 @@
     <section class="content">
       <div class="row">
         <div class="col-xs-12">
-            <a href="?url=chap/add" > <i class=" text-success glyphicon glyphicon-plus " ></i> ajouter un chapitre</a>
+            <a href="?url=lesson_add" >  <i class=" text-success glyphicon glyphicon-plus " ></i>retourner a la liste d'ajout</a>
           <!-- /.box -->
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">LISTE DES ETABLISSEMENTS</h3>
+              <h3 class="box-title">Table de Donnees</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                    
+                  <th>Classe</th>
                   <th>Matiere</th>
                   <th>Chapitre</th>
+                  <th>Titre de la leon</th>
                   <th>Modifier</th>
                   <th>Supprimer</th>
-                 
                 </tr>
                 </thead>
-                <tbody id="sub_dis">
-                
-                </tbody>
+                <tbody id='sub_dis'>
+               
+            </tbody>
                 <tfoot>
                
                 </tfoot>
@@ -53,7 +53,6 @@
       <!-- /.row -->
     </section>
     <!-- /.content -->
-      <!-- Optional theme -->
-<div id="confirm-dial" title="Supprimer cet element ?" ></div>
-
-    <script src="../assets/js/control/chapiter.js"></script>
+    <div id="confirm-dial" title="Supprimer cet element ?" ></div>
+    
+     <script src="../assets/js/control/lessonAdded.js"></script>

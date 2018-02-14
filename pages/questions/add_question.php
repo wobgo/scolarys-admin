@@ -1,7 +1,7 @@
     <section class="content-header">
       <h1>
-        Advanced Form Elements
-        <small>Preview</small>
+      AJOUT DES QUESTIONS
+<!--        <small>Preview</small>-->
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Panneau</a></li>

@@ -10,63 +10,49 @@
 
 
 
+   
     <!-- Main content -->
     <section class="content">
+      <div class="row">
+        <div class="col-xs-12">
+             <a href="?url=add/planning" > <i class=" text-success glyphicon glyphicon-plus " ></i> creer une planning</a>
+          <!-- /.box -->
 
-        <div class="row">
-            
-            
-                                       
-<!-- Nav tabs -->
-<ul class="nav nav-tabs nav-justified">
-    <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">Profile</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">Follow</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">Contact</a>
-    </li>
-</ul>
-<!-- Tab panels -->
-<div class="tab-content card">
-    <!--Panel 1-->
-    <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
-            porro voluptate odit minima.</p>
-    </div>
-    <!--/.Panel 1-->
-    <!--Panel 2-->
-    <div class="tab-pane fade" id="panel2" role="tabpanel">
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
-            porro voluptate odit minima.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
-            porro voluptate odit minima.</p>
-    </div>
-    <!--/.Panel 2-->
-    <!--Panel 3-->
-    <div class="tab-pane fade" id="panel3" role="tabpanel">
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus
-            reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione
-            porro voluptate odit minima.</p>
-    </div>
-    <!--/.Panel 3-->
-</div>
-                           
-            
-            
-            
-            
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Data Table With Full Features</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                   <th>Planning</th>
+                   <th>Libelle</th>
+                  <th>Classe</th>
+                  <th>Matiere liee</th>
+                  <th>Supprimer</th>
+                 
+                </tr>
+                </thead>
+                <tbody id="sub_dis">
+                
+                </tbody>
+                <tfoot>
+               
+                </tfoot>
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
         </div>
-        
-        
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
     
-  
-    </section>     
+    <div id="confirm-dial" title="Supprimer cet element ?" ></div>
+
+    <script src="../assets/js/control/link_class.js"></script>

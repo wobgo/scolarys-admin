@@ -81,14 +81,14 @@ if (isset($_POST['login']) && isset($_POST['passwd'])){
   </div>
   <!-- /.lockscreen-item -->
   <div class="help-block text-center">
-    Enter your password to retrieve your session
+    Veuillez retrouver votre etudiant ci dessus 
   </div>
   <div class="text-center">
-    <a href="login.html">Or sign in as a different user</a>
+      <a href="../register.php">Ou retourner a la page d'inscription</a>
   </div>
   <div class="lockscreen-footer text-center">
-    Copyright &copy; 2014-2016 <b><a href="https://adminlte.io" class="text-black">Almsaeed Studio</a></b><br>
-    All rights reserved
+<!--    Copyright &copy; 2014-2016 <b><a href="https://adminlte.io" class="text-black">Almsaeed Studio</a></b><br>
+    All rights reserved-->
   </div>
 </div>
 <!-- /.center -->

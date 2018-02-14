@@ -1,19 +1,19 @@
   <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Mailbox
-        <small>13 new messages</small>
+        ASSISTANCE
+<!--        <small>13 new messages</small>-->
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Mailbox</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i>Panneau</a></li>
+        <li class="active">Edition</li>
       </ol>
     </section>
   
    <!-- Main content -->
     <section class="content">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-2">
           <a href="?url=ass/comp" class="btn btn-primary btn-block margin-bottom">Compose</a>
 
 <!--          <div class="box box-solid">
@@ -60,23 +60,23 @@
           <!-- /.box -->
         </div>
         <!-- /.col -->
-        <div class="col-md-9">
+        <div class="col-md-10">
           <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Assistance</h3>
 
-              <div class="box-tools pull-right">
+<!--              <div class="box-tools pull-right">
                 <div class="has-feedback">
                   <input type="text" class="form-control input-sm" placeholder="Search Mail">
                   <span class="glyphicon glyphicon-search form-control-feedback"></span>
                 </div>
-              </div>
+              </div>-->
               <!-- /.box-tools -->
             </div>
             <!-- /.box-header -->
             <div class="box-body no-padding">
-              <div class="mailbox-controls">
-                <!-- Check all button -->
+<!--              <div class="mailbox-controls">
+                 Check all button 
                 <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i>
                 </button>
                 <div class="btn-group">
@@ -84,7 +84,7 @@
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-reply"></i></button>
                   <button type="button" class="btn btn-default btn-sm"><i class="fa fa-share"></i></button>
                 </div>
-                <!-- /.btn-group -->
+                 /.btn-group 
                 <button type="button" class="btn btn-default btn-sm"><i class="fa fa-refresh"></i></button>
                 <div class="pull-right">
                   1-50/200
@@ -92,10 +92,10 @@
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-left"></i></button>
                     <button type="button" class="btn btn-default btn-sm"><i class="fa fa-chevron-right"></i></button>
                   </div>
-                  <!-- /.btn-group -->
+                   /.btn-group 
                 </div>
-                <!-- /.pull-right -->
-              </div>
+                 /.pull-right 
+              </div>-->
               <div class="table-responsive mailbox-messages">
                   
                 <table class="table table-hover table-striped">

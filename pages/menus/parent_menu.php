@@ -91,7 +91,7 @@
         
         
   <li>
-          <a href="admin.php?url=contribution">
+          <a href="admin.php?url=contributor/add">
             <i class="glyphicon glyphicon-folder-open"></i><span>Contribution</span>
             <!-- <span class="pull-right-container">
              </span> -->

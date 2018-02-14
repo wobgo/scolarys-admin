@@ -1,12 +1,12 @@
   <section class="content-header">
       <h1>
-        Advanced Form Elements
-        <small>Preview</small>
+        AJOUT DES MATIERES
+<!--        <small>Preview</small>-->
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Forms</a></li>
-        <li class="active">Advanced Elements</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Panneau</a></li>
+        <li><a href="#">Matiere</a></li>
+        <li class="active">Ajout</li>
       </ol>
     </section>
 
@@ -111,8 +111,8 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
-          the plugin.
+<!--          Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
+          the plugin.-->
         </div>
       </div>
       

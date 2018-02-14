@@ -21,17 +21,22 @@ $usrdata = array();
 $usro->bdd =  bdd();
 
 
-// delete
-if(isset($_GET['delete'])){
-    
-     $del = $_GET['numb'];
+ if (isset($_GET['ref'])&& ($_GET['ref']!="" )){
         
-         $usro->condition ='LessonID'; 
-
-         $usro->delete($del);
-        
-}
-
+     //crud function  
+      $n = $_GET['ref'];
+     
+       $less =  $_GET['lesson'];
+       
+       $sh = $_GET['title'];
+            
+      $usro->updateData(array("champ"=>"LessonTitle='$sh',LessonField='$less'","condition"=>"LessonID='$n'"));
+     
+     
+     
+ }else{
+     
+     
  //add
             if (isset($_GET['add'])){
 
@@ -50,6 +55,44 @@ if(isset($_GET['delete'])){
                 $usrdata['return'] = 'operation effectuee' ;
 
             }
+
+            
+     
+     
+ }
+
+            
+ 
+//update
+if(isset($_GET['aff'])){
+    
+    $ui = $_GET['added'];
+    
+      $usro->condition=" WHERE LessonID='$ui'";
+      
+        foreach ($usro->readData() as $getusr ){
+        
+          $usrdata['LessonTitle'] = $getusr['LessonTitle']; 
+          $usrdata['LessonField'] = $getusr['LessonField']; 
+          $usrdata['LessonID'] = $getusr['LessonID']; 
+        }
+ 
+    
+}
+
+
+ 
+ 
+// delete
+if(isset($_GET['delete'])){
+    
+     $del = $_GET['numb'];
+        
+         $usro->condition ='LessonID'; 
+
+         $usro->delete($del);
+        
+}
 
             
 foreach ($usro->readData() as $getusr ){
