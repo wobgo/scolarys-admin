@@ -7,7 +7,7 @@ var url="../Models/datalist/lesson.php";
 
 $(function(){
     
-        $.getJSON("../Models/DataView/LessonAdded.php",function(donnees){
+        $.getJSON("../Models/DataView/QuestionAdded.php",function(donnees){
                  
                   $.each(donnees,function(i,donnees){
             

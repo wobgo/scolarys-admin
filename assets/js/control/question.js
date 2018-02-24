@@ -200,11 +200,13 @@ $('#addquestion').click(function(){
    ////////////////
        valeur = [rep1,rep2,rep3];
      
-    $.get(url_link,{add:'action',question:txt,classid:classid,chapid:chapid,subid:subid},function(d){
-        
-        alert(d.return);
-        
-         $.get(url_link_rep,{add:'action',valeurs:valeur},function(d){alert(d.rep);},'json');
+     alert(selValue);
+       
+    $.get(url_link_rep,{add:'action',valeurs:valeur},function(d){
+             
+             alert(d.rep);
+             
+       $.get(url_link,{add:'action',question:txt,classid:classid,chapid:chapid,subid:subid},function(d){alert(d.return);},'json');
          
             window.location = "?url=quest/question";
         

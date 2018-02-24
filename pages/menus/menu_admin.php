@@ -63,8 +63,8 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="admin.php?url=link/add"><i class="fa fa-institution"></i> Classe</a></li>
-            <li><a  href="admin.php?url=dash/sub"><i class="glyphicon glyphicon-list-alt"></i> Matiere</a></li>
-          </ul>
+<!--            <li><a  href="admin.php?url=dash/sub"><i class="glyphicon glyphicon-list-alt"></i> Matiere</a></li>
+         --> </ul>
         </li>
         
         
@@ -88,13 +88,23 @@
           </a>
         </li>
         
-         <li>
-          <a href="admin.php?url=publication">
+        
+        <li class="treeview">
+          <a href="#">
             <i class="material-icons" style="font-size:15px" >public</i> <span>Publications</span>
             <span class="pull-right-container">
-              
+                 <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
+          <ul class="treeview-menu">
+           
+            <li><a  href="admin.php?url=publication"><i class="glyphicon glyphicon-blackboard"></i> Publication des Cours</a></li>
+            <li><a href="admin.php?url=pub/quest"><i class="glyphicon glyphicon-question-sign"></i>Publication des Questions</a></li>
+          </ul>
+        </li>
+        
+         <li>
+          
         </li>
 
         <li>

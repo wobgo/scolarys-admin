@@ -24,8 +24,25 @@
           <!-- /.box -->
 
           <div class="box">
+              
             <div class="box-header">
-              <h3 class="box-title">Data Table With Full Features</h3>
+                
+                <h3 class="box-title pull-right">
+                    
+                    <div class="input-group">
+  
+                        <input type="text" placeholder="Rechercher un etablissement scolaire" class="form-control"/>
+    
+                        <span class="input-group-addon"> 
+        
+                            <i class="fa fa-search"></i>
+    
+                        </span>
+
+                    </div>
+                    
+                    
+                </h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

@@ -24,7 +24,7 @@ $usro->bdd =  bdd();
 
 $lssn = new iniat\Control();
 
-$lssn->table='lesson';
+$lssn->table='plan_question';
 
 $lssn->bdd = bdd();
 
@@ -36,7 +36,7 @@ $lssn->bdd = bdd();
         //add
   if (isset($_GET['add'])){
                 
-                 $getresp = $_GET['classid'];
+                 $getresp = $_GET['lessonid'];
                  
             foreach ($getresp as $value) {      
 
@@ -44,13 +44,13 @@ $lssn->bdd = bdd();
                 
                 $datefin = $_GET['datefin'];
                 
-                $classid = $_GET['classid'];
+                $lessonid = $_GET['lessonid'];
                  
-              //  $chapid = $_GET['chapid'];
+                $lib = $_GET['lib'];
                   
              //   $subid = $_GET['subid'];
                
-                $usro->saveData(array("champ"=>"PlanDate,PlanEnd,ClassID","value"=>"'$datebi','$datefin','$value'"));
+                $usro->saveData(array("champ"=>"PlanDate,PlanEnd,PlanField,LessonID","value"=>"'$datebi','$datefin','$lib','$value'"));
 
                 $usrdata['return'] = 'operation effectuee' ;
 
@@ -66,30 +66,40 @@ if(isset($_GET['delete'])){
     
      $del = $_GET['numb'];
         
-         $usro->condition ='ClasseID'; 
+         $usro->condition ='PlanningID'; 
 
          $usro->delete($del);
     
     
     
 }
+
+//$test = [13,14,16];
 //update
-if(isset($_GET['aff'])){
+if(isset($_GET['add_quest'])){
     
-    $ui = $_GET['level'];
-    
-      $lssn->condition=" WHERE LessonID='$ui'";
-      
-        foreach ($lssn->readData() as $getusr ){
-        
-       //   $usrdata['LessonID'] = $getusr['LessonID']; 
-          $usrdata['ClasseID'] = $getusr['ClasseID']; 
-           $usrdata['SubjectID'] = $getusr['SubjectID']; 
-            $usrdata['ChapiterID'] = $getusr['ChapiterID']; 
-        }
+          $getresp = $_GET['questionid'];
+                 
+            foreach ($getresp as $value) {      
+
+                $datebi = $_GET['dateb'];
+                
+                $datefin = $_GET['datefin'];
+                
+                //$lessonid = $_GET['lessonid'];
+                 
+                $lib = $_GET['lib'];
+                  
+             //   $subid = $_GET['subid'];
+               
+                $usro->saveData(array("champ"=>"PlanQuestDate,PlanQuestEND,PlanQuestField,QuestionID","value"=>"'$datebi','$datefin','$lib','$value'"));
+
+                $usrdata['return'] = 'operation effectuee' ;
+
+            }
  
-    
-}
+    }
+
 
 
 

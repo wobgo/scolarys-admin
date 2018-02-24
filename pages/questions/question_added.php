@@ -1,12 +1,12 @@
 <section class="content-header">
       <h1>
-        Table de Donnees Lessons
+        LISTE DES QUESTIONS AJOUTEES
         <small></small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Panneau</a></li>
         <li><a href="#">Tables</a></li>
-        <li class="active">Lessons</li>
+        <li class="active">Questions</li>
       </ol>
     </section>
 
@@ -21,13 +21,15 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Table de Donnees</h3>
+<!--              <h3 class="box-title">Table de Donnees</h3>-->
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
+                  
+                  
                   <th>Classe</th>
                   <th>Matiere</th>
                   <th>Chapitre</th>

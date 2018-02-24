@@ -72,6 +72,7 @@
       <div class="box box-default">
         <div class="box-header with-border">
 <!--            <h3 class="box-title"><a id="add" href=""><i class="text-success glyphicon glyphicon-plus-sign"></i> ajouter des reponses </a></h3>-->
+               <h3 class="box-title">Entrer le nom de la matiere</h3>
 
           <div class="box-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
@@ -113,6 +114,7 @@
         <div class="box-footer">
 <!--          Visit <a href="https://select2.github.io/">Select2 documentation</a> for more examples and information about
           the plugin.-->
+                 <span class="text text-secondary">  Exemple: Mathematiques </span>
         </div>
       </div>
       

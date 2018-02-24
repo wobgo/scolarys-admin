@@ -1,0 +1,8 @@
+
+copy all datas
+
+insert into notifications (Ref,Username,QuestionID)
+   
+ select usrinfo.ConnexionREF, usrinfo.UserName ,NEW.QuestionID
+   
+   from usrinfo

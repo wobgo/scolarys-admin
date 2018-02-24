@@ -1,6 +1,6 @@
 <section class="content-header">
       <h1>
-        Table de Donnees Lessons
+        LISTE DES LESSONS AJOUTEES
         <small></small>
       </h1>
       <ol class="breadcrumb">
@@ -20,7 +20,7 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Table de Donnees</h3>
+<!--              <h3 class="box-title">Table de Donnees</h3>-->
             </div>
             <!-- /.box-header -->
             <div class="box-body">

@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 
+
+
 var url ="../Models/datalist/planning.php";
  var classid = [];
  var subid =[];
@@ -15,13 +17,13 @@ var  chapid = getUrlParameter('ch') ;
 
 $(function(){
     
-   $.getJSON("../Models/DataView/LessonAdded.php",function(donnees){
+   $.getJSON("../Models/DataView/QuestionAdded.php",function(donnees){
                  
                   $.each(donnees,function(i,donnees){
             
                    $('#sub_dis').append("<tr>"
                    
-                        +"<td><input type='checkbox' name='isBlock' value="+donnees.LessonID+"></td>"
+                        +"<td><input type='checkbox' name='isBlock' value="+donnees.QuestionID+"></td>"
                    
                          +" <td>" +donnees.ClasseText +"</td>"
                 
@@ -79,7 +81,7 @@ $(function(){
 
 ///////////////////////////////////////////////////////////TESTUEL ////////////////////////////////////
 
-$('#addplan').click(function(){
+$('#addquest').click(function(){
     
     var DateBin =$('#dateb').val();
     var DateFin =$('#datefin').val();
@@ -93,7 +95,7 @@ $('#addplan').click(function(){
          
       //     classid.push(getUrlParameter('c')) ;// = ;
        //    alert(up.ClasseID);
-          $.get(url,{add:'action',dateb:DateBin,datefin:DateFin,lib:lib,lessonid:valeurs},function(d){
+          $.get(url,{add_quest:'action',dateb:DateBin,datefin:DateFin,lib:lib,questionid:valeurs},function(d){
 //
          alert(d.return);
 //
@@ -110,19 +112,3 @@ $('#addplan').click(function(){
 
 
      
-  // url data search
-
-  function getUrlParameter(name) {
-
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    
-    var results = regex.exec(location.search);
-    
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-
-};
-
-
-/*****************************************************************************************************************/

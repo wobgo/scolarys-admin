@@ -14,7 +14,7 @@
 
   <!-- Main content -->
     <section class="content">
-<a href="?url=publication" > <i class=" glyphicon glyphicon-arrow-left" ></i> retour a la liste des planning</a>   
+<a href="?url=publication" > <i class=" glyphicon glyphicon-arrow-left" ></i> retour a la liste des publications</a>   
       <!-- SELECT2 EXAMPLE -->
       <div class="box box-default">
         <div class="box-header with-border">
@@ -105,7 +105,7 @@
               <!-- /.form-group -->
               <div class="form-group">
                
-                  <label>Libelle de la plannification</label>
+                  <label>Libelle de la publication</label>
             
                       <input  type='text' id='planlib'  class=" form-control select2">
                    
@@ -152,7 +152,7 @@
                                   <th>Niveau</th>
                                   <th>Matiere</th>
                                   <th>Chapitre</th>
-                                  <th>Le&#231;on</th>
+                                  <th>Question</th>
                                 </tr>
                            </thead>
                            
@@ -202,7 +202,7 @@
 
          <div class="pull pull-right">
               
-            <button class="btn btn btn-primary" id="addplan" > Ajouter un programme </button> 
+            <button class="btn btn btn-primary" id="addquest" > Publier une Quesion </button> 
                        
           </div>
 
@@ -226,5 +226,5 @@
       });
     </script>
     
-  <script src="../assets/js/control/publication.js"></script>
+  <script src="../assets/js/control/questshare.js"></script>
  

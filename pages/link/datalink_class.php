@@ -1,12 +1,12 @@
 <section class="content-header">
       <h1>
-        Data Tables
-        <small>advanced tables</small>
+       LISTE DE MATIERES LIEES AUX CLASSES
+<!--        <small>advanced tables</small>-->
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Tables</a></li>
-        <li class="active">Data tables</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Relation</a></li>
+        <li><a href="#">Liste</a></li>
+        <li class="active">Relation</li>
       </ol>
     </section>
 
@@ -21,7 +21,7 @@
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Data Table With Full Features</h3>
+            <!--  <h3 class="box-title">LISTE DE MATIERES LIEES AUX CLASSES</h3>-->
             </div>
             <!-- /.box-header -->
             <div class="box-body">

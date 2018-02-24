@@ -1,4 +1,7 @@
-  <section class="content-header">
+                          
+<script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+
+<section class="content-header">
       <h1>
         Ajout des Lessons
         <small></small>
@@ -182,7 +185,7 @@
             <!-- /.box-header -->
             <div class="box-body pad">
              
-                <textarea id="textArea" class="textarea" placeholder="Place some text here"
+                <textarea id="textArea" class="textarea" name='editor1' placeholder="Saisir votre cours ici"
                       style="width: 100%; height: 180px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
               
             </div>
@@ -216,3 +219,7 @@
 
 <script src="../assets/js/control/lesson.js" type="text/javascript"></script>
 <script src="../assets/js/control/lessonAdded.js" type="text/javascript"></script>
+
+<script>
+	CKEDITOR.replace( 'editor1' );
+</script>

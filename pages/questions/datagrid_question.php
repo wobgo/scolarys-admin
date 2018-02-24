@@ -4,9 +4,9 @@
 <!--        <small>advanced tables</small>-->
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Tables</a></li>
-        <li class="active">Data tables</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i>Questions</a></li>
+        <li><a href="#">Liste</a></li>
+        <li class="active">Question</li>
       </ol>
 </section>
 
@@ -16,7 +16,7 @@
     <section class="content">
       <div class="row">
         <div class="col-xs-12">
-            <a href="?url=question_add" >  <i class=" text-success glyphicon glyphicon-plus " ></i> acceder aux questions ajoutees</a>
+            <a href="?url=question_added" >  <i class=" text-success glyphicon glyphicon-plus " ></i> acceder aux questions ajoutees</a>
           <!-- /.box -->
 
           <div class="box">

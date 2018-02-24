@@ -15,23 +15,26 @@
     <section class="content">
       <div class="row">
         <div class="col-xs-12">
-             <a href="?url=add/planning" > <i class=" text-success glyphicon glyphicon-plus " ></i> creer une planning</a>
+             <a href="?url=add/planning" > <i class=" text-success glyphicon glyphicon-plus " ></i> creer une publication</a>
           <!-- /.box -->
 
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Data Table With Full Features</h3>
+<!--              <h3 class="box-title">Data Table With Full Features</h3>-->
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                   <th>Planning</th>
                    <th>Libelle</th>
-                  <th>Classe</th>
-                  <th>Matiere liee</th>
-                  <th>Supprimer</th>
+                   <th>Periode</th>
+                   <th>Classe</th>
+                   <th>Matiere</th>
+                   <th>Chapitre</th>
+                   <th>Lecon</th>
+                   
+                   <th>Suppression</th>
                  
                 </tr>
                 </thead>
@@ -55,4 +58,4 @@
     
     <div id="confirm-dial" title="Supprimer cet element ?" ></div>
 
-    <script src="../assets/js/control/link_class.js"></script>
+    <script src="../assets/js/control/share_p.js"></script>

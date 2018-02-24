@@ -43,6 +43,7 @@
 <script  src="http://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
 
+
 <!--  <link rel="stylesheet" href="/resources/demos/style.css">-->
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <script src="http://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
@@ -129,6 +130,8 @@
     
     <?php if($_GET['url']=='question_add'){ include './questions/add_question.php';} ?> 
     
+     <?php if($_GET['url']=='question_added'){ include './questions/question_added.php';} ?> 
+    
     
     <?php if($_GET['url']=='user/support'){ include './users/ad_support/datagrid_support.php';} ?>
     
@@ -213,6 +216,9 @@
     
        <?php if($_GET['url']=='publication'){ include './share/partage.php';} ?>
     
+     <?php if($_GET['url']=='pub/quest'){ include './share/questshare.php';} ?>
+    
+      <?php if($_GET['url']=='quest/plan'){ include './share/questplan.php';} ?>
     
      <?php if($_GET['url']=='contributor/add'){ include './others/contribution/add_contributor.php';} ?>
     
